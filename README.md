@@ -21,5 +21,5 @@ python nn_relay.py -n
 To continue a previous trainning:<br/>
 ```
 python nn_relay.py -l [model name]
-```
+```<br/>
 the model name can be found under the "record" folder, named by the initial run datetime
