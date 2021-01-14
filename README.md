@@ -12,8 +12,8 @@ Some tips that might help:<br/>
 2. Remember to add corresponding PATH according to instructions given by Cuda installer<br/>
 # How to run it
 To launch a new run:<br/>
-python nn_relay.py -n<br/>
+> python nn_relay.py -n<br/>
 <br/>
 To continue a previous trainning:<br/>
 > python nn_relay.py -l [model name]<br/>
-* the model name can be found under the "record" folder, named by the initial run datetime
+the model name can be found under the "record" folder, named by the initial run datetime
