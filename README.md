@@ -14,8 +14,12 @@ python -m pip install tensorflow==2.1.0
 2. Remember to add corresponding PATH according to instructions given by Cuda installer<br/>
 # How to run it
 To launch a new run:<br/>
-```python nn_relay.py -n```<br/>
+```
+python nn_relay.py -n
+```
 <br/>
 To continue a previous trainning:<br/>
-```python nn_relay.py -l [model name]```<br/>
+```
+python nn_relay.py -l [model name]
+```
 the model name can be found under the "record" folder, named by the initial run datetime
