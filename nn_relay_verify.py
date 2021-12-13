@@ -29,7 +29,7 @@ def verify(size=10000, verbose=0, model=None):
 
     # load model
     if model is None:
-        model_name = "nn_relay_model"
+        model_name = "latest"
 
         if os.path.exists(model_name + ".h5"):
             print("load model")
